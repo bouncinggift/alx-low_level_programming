@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main _ viod
+ * main - viod
  * Return: interger 0
  */
 int main(void)
