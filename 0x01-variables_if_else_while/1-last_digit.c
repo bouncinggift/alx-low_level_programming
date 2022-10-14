@@ -11,8 +11,8 @@
 int main(void)
 {
 	int n, Lastdigit;
-	
-	srand(time(0));	
+
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	Lastdigit = n % 10;
 	if (Lastdigit > 5)
