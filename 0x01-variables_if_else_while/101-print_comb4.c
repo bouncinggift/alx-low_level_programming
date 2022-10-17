@@ -19,24 +19,20 @@ int main(void)
 
 		{
 			z = 50;
+			while (z < 58)
 			{
-
-				while (z < 58)
-
+				if (y != x && y != z && z > x)
 				{
-					if (y != x && y != z && z > x)
+					putchar(x);
+					putchar(y);
+					putchar(z);
+					if (y < 57)
 					{
-						putchar(x);
-						putchar(y);
-						putchar(z);
-						if (y < 57)
-						{
-							putchar(',');
-							putchar(' ');
-						}
+						putchar(',');
+						putchar(' ');
 					}
-					z++;
 				}
+				z++;
 			}
 			y++;
 		}
