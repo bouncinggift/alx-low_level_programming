@@ -9,7 +9,7 @@ int main(void)
 	/*ASCII code for 0*/
 	x = 48;
 
-	while (x < 58)
+	while (x < 56)
 
 	{
 		y = 49;
@@ -19,18 +19,17 @@ int main(void)
 
 		{
 			z = 50;
-			if (x != y && y > x)
 			{
 
 				while (z < 58)
 
 				{
-					if (y != z && z > y)
+					if (y != x && y != z && z > x)
 					{
 						putchar(x);
 						putchar(y);
 						putchar(z);
-						if (x < 55)
+						if (y < 57)
 						{
 							putchar(',');
 							putchar(' ');
@@ -46,4 +45,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
