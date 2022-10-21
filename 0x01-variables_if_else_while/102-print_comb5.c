@@ -35,10 +35,10 @@ int main(void)
 						putchar(y);
 						putchar(z);
 						if (x < 58 && !(w == 57 && x == 56))
-						
+						{
 							putchar(',');
 							putchar(' ');
-						
+						}
 					}
 					z++;
 				}
