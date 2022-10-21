@@ -27,18 +27,18 @@ int main(void)
 				while (z < 58)
 
 				{
-					if (w <= y && x <= z && x != z)
+					if (w <= y && x <= z && !(y == 48 && z == 48) && !(w == y && x == z))
 					{
 						putchar(w);
 						putchar(x);
 						putchar(' ');
 						putchar(y);
 						putchar(z);
-						if (x < 58)
-						{
+						if (x < 58 && !(w == 57 && x == 56))
+						
 							putchar(',');
 							putchar(' ');
-						}
+						
 					}
 					z++;
 				}
