@@ -8,7 +8,6 @@ int main(void)
 
 	for (n = 1; n <= 100; n++)
 	{
-		printf(" ");
 		if (n % 3 == 0)
 			printf("Fizz");
 		else if (n % 5 == 0)
