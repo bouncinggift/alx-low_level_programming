@@ -27,7 +27,7 @@ int main(void)
 				while (z < 58)
 
 				{
-					if (w <= y && x <= z && !(y == 48 && z == 48) && !(w == y && x == z))
+					if (w <= y && !(y == 48 && z == 48) && !(w == y && x == z))
 					{
 						putchar(w);
 						putchar(x);
