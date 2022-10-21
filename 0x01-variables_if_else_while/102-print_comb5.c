@@ -22,7 +22,7 @@ int main(void)
 			while (y < 58)
 
 			{
-				z = 49;
+				z = 48;
 
 				while (z < 58)
 
