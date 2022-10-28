@@ -4,7 +4,7 @@
  * @n: pointer
  * Return: uppercase
  */
-char *string_toupper(char *)
+char *string_toupper(char *n)
 {
 	int i = 0;
 
