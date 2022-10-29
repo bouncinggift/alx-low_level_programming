@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_times_table -  prints the n times table, starting with 0
  * @n: highest 15
@@ -19,7 +20,7 @@ void print_times_table(int n)
 			_putchar(' ');
 
 			if (prod <= 9)
-			_putchar('\t');
+			printf("  ");
 			else
 				_putchar((prod / 10) + '0');
 			_putchar((prod % 10) + '0');
