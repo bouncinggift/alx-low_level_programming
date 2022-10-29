@@ -4,11 +4,12 @@
  * @src: copy from
  * @dest: copy to
  * @n: char to be copied
- * Return: dest
+ * Return: pointer to dest<F11>
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i, j;
+	int i;
+	int j;
 
 	i = 0;
 	while (dest[i] != '\0')
