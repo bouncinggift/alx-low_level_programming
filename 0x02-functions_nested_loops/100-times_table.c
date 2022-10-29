@@ -6,8 +6,7 @@
  */
 void print_times_table(int n)
 {
-
-	for (n = 0; n <= 15; n++)
+	n <= 15;
 	{
 		int num1, num2, prod;
 
