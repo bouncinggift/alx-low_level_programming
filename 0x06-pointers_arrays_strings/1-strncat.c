@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncat -  concatenates two strings
+ * _strncat - concate two strings
  * @src: copy from
  * @dest: copy to
  * @n: char to be copied
@@ -24,3 +24,4 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	dest[i] = '\0';
 	return (dest);
+}
